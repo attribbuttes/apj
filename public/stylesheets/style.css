@@ -15,6 +15,8 @@ a {
   color: #00B7FF;
 }
 
+/* Agrega este estilo para hacer los botones más grandes y ubicarlos en la parte superior */
+
 .navbar {
   ul {
     list-style-type: none;
@@ -22,25 +24,33 @@ a {
     padding: 0;
     overflow: hidden;
     background-color: #24492e;
+    display: flex;
+    justify-content: space-around; /* Espacio uniforme entre los elementos */
+    align-items: center; /* Centra verticalmente los elementos */
+    padding: 15px 0; /* Añade un espacio en la parte superior e inferior */
   }
-  
+
   li {
-    float: left;
+    display: inline-block; /* Mostrar los elementos en línea */
+    margin-right: 10px; /* Espacio entre los botones */
   }
-  
+
   li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 20px; /* Aumenta el tamaño del botón */
     text-decoration: none;
+    border-radius: 10px;
+    font-size: 50px; /* Tamaño de fuente más grande */
   }
-  
-  /* Change the link color to #111 (black) on hover */
+
+  /* Cambia el color del botón al pasar el mouse */
   li a:hover {
     background-color: #111;
   }
 }
+r
 
 /*slideshow*/
 * {box-sizing:border-box}

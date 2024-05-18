@@ -10,6 +10,10 @@ router.get('/gallery', function(req, res, next) {
   res.render('gallery', { title: 'Express' });
 });
 
+router.get('/contact', function(req, res, next) {
+  res.render('about');
+});
+
 
 
 module.exports = router;
