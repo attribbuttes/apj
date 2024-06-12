@@ -42,6 +42,7 @@ a {
     padding: 14px 20px; /* Aumenta el tamaño del botón */
     text-decoration: none;
     border-radius: 10px;
+    background-color: #4CAF50;
     font-size: 50px; /* Tamaño de fuente más grande */
   }
 
