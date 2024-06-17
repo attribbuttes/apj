@@ -14,6 +14,10 @@ router.get('/contact', function(req, res, next) {
   res.render('about');
 });
 
+router.get('/plantas', function(req, res, next) {
+  res.render('plantas');
+});
+
 
 
 module.exports = router;
