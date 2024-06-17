@@ -168,3 +168,13 @@ div.desc {
   text-align: center;
 }
 
+.qr {
+  text-align: center; /* Centra horizontalmente */
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  height: 100vh; /* Ajusta la altura según necesites */
+}
+.container img {
+  width: 50%; /* Ajusta el tamaño de la imagen */
+}
